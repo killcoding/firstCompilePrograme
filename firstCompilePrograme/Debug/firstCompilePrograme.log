@@ -1,0 +1,14 @@
+﻿Build started 2016/2/15 21:00:31.
+     1>Project "E:\end\firstCompilePrograme\firstCompilePrograme\firstCompilePrograme.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt first.cpp
+         first.cpp
+     1>e:\opencv\build\include\opencv2\core\mat.hpp(1375): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         D:\Program Files\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\end\firstCompilePrograme\Debug\firstCompilePrograme.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\opencv\build\x86\vc12\lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\end\firstCompilePrograme\Debug\firstCompilePrograme.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\end\firstCompilePrograme\Debug\firstCompilePrograme.lib" /MACHINE:X86 Debug\first.obj
+         firstCompilePrograme.vcxproj -> E:\end\firstCompilePrograme\Debug\firstCompilePrograme.exe
+     1>Done Building Project "E:\end\firstCompilePrograme\firstCompilePrograme\firstCompilePrograme.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.45
